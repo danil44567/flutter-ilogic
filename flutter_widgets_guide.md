@@ -38,8 +38,7 @@ TextField(
 * Для чисел: Необходимо преобразовать строку в число: `int num = int.parse(input);`;
 * Для очистки: `_controller.clear();`
 
-<details>
-<summary>📌 Простой пример TextField</summary>
+📌 Простой пример TextField
 
 ```dart
 import 'package:flutter/material.dart';
@@ -83,9 +82,6 @@ class _TextFieldExampleState extends State<TextFieldExample> {
   }
 }
 ```
-
-</details>
-
 ---
 
 ### Кнопка: ElevatedButton
