@@ -12,15 +12,13 @@
 
 ## Поле ввода: TextField
 
-### Поле ввода: TextField
-
 Для чтения текста от пользователя. Добавь контроллер, чтобы "вытащить" данные.
 Пример базового добавления:
 
 В переменных виджета:
 
 ```dart
-dartTextEditingController _controller = TextEditingController();
+TextEditingController _controller = TextEditingController();
 ```
 
 В вёрстке виджета:
@@ -84,7 +82,7 @@ class _TextFieldExampleState extends State<TextFieldExample> {
 ```
 ---
 
-### Кнопка: ElevatedButton
+## Кнопка: ElevatedButton
 
 Запускает действие при нажатии.
 Пример:
@@ -103,7 +101,7 @@ ElevatedButton(
 
 ---
 
-### setState
+## setState
 
 ```dart
 setState(() {
